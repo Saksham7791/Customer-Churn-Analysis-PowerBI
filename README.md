@@ -61,6 +61,11 @@ Here is the schema used for data modeling in Power BI:
 |----------------------------|-----------------------------|
 | ![Dashboard 1](images/dashboard1.png) | ![Dashboard 2](images/dashboard2.png) |
 
+![image](https://github.com/user-attachments/assets/7d8591b6-7ebd-46c4-bba8-a16a54dc4882)
+![image](https://github.com/user-attachments/assets/d0d4ec29-463d-4cb7-8502-65e05e039cc0)
+
+
+
 ---
 
 ## 🔍 Key Insights
