@@ -16,7 +16,7 @@ Customer churn is a critical KPI for any business. This project analyzes churn p
 👉 [Dashboard_1 Screenshot](./Dashboard_1.png)
 👉 [Dashboard_2 Screenshot](./Dashboard_2.png)
 - **Microsoft Excel** – for storing and preparing the dataset
-👉 [Datasets File](./DataSet/)
+👉 [Datasets File](./Datasets/)
 
 ---
 
