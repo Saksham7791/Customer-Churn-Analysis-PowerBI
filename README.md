@@ -1,4 +1,4 @@
-# 📉 Customer Churn Analysis | Power BI Dashboard
+# 📉 Customer Churn Analysis | Power BI
 
 This project explores customer churn behavior through interactive Power BI dashboards using a structured Excel dataset. The goal is to identify trends, key churn drivers, and insights to improve customer retention.
 
