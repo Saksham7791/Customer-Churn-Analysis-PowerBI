@@ -12,8 +12,11 @@ Customer churn is a critical KPI for any business. This project analyzes churn p
 
 ## 🛠️ Tools Used
 
-- **Power BI** – for data modeling and dashboard development  
+- **Power BI** – for data modeling and dashboard development
+  👉 [Dashboard_1 Screenshot](./Dashboard_1.png)
+  👉 [Dashboard_2 Screenshot](./Dashboard_2.png)
 - **Microsoft Excel** – for storing and preparing the dataset
+  👉 [Datasets File](./DataSet/)
 
 ---
 
@@ -38,7 +41,9 @@ The Excel dataset consists of multiple related tables structured in a star schem
 
 Here is the schema used for data modeling in Power BI:
 
-![Schema Diagram](images/schema.png)  
+![image](https://github.com/user-attachments/assets/02336bf6-d2bf-4cfa-84dc-0357ed8ff0c3)
+
+ 
 <sup>*ERD showing relationships among dimension and fact tables*</sup>
 
 ---
@@ -57,13 +62,14 @@ Here is the schema used for data modeling in Power BI:
 
 ## 📊 Power BI Dashboard
 
-| Customer Insights Overview | Churn Over Time & Geography |
-|----------------------------|-----------------------------|
-| ![Dashboard 1](images/dashboard1.png) | ![Dashboard 2](images/dashboard2.png) |
+### 1. **Customer Churn Analysis Overview Dashboard**
 
-![image](https://github.com/user-attachments/assets/7d8591b6-7ebd-46c4-bba8-a16a54dc4882)
-![image](https://github.com/user-attachments/assets/d0d4ec29-463d-4cb7-8502-65e05e039cc0)
+![image](https://github.com/user-attachments/assets/2fb36cde-c16f-4d2b-a03e-f8bf66609695)
 
+
+### 2. **Customer Retention & Exit Trends Dashboard**
+
+![image](https://github.com/user-attachments/assets/7737a2f2-7b51-4bd3-9e80-0c76470e9312)
 
 
 ---
@@ -93,5 +99,14 @@ This dashboard enables business teams to:
 
 ---
 
-## 📁 Folder Structure
+---
+
+## 📬 Contact
+
+**Author**: Mohan Kumar  
+**Mail**: mohan122000kumar@gmail.com
+
+---
+
+⭐ *Feel free to fork or star this repo if you found it useful!*
 
